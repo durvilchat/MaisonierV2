@@ -1,0 +1,350 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="513dp"
+        android:layout_marginBottom="20dp"
+        android:columnCount="2"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:weightSum="1">
+
+
+        <ImageView
+            android:id="@+id/imgBailleur"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="0.47"
+            app:srcCompat="@drawable/avatar" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_half"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:paddingLeft="@dimen/activity_margin_half">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_margin_half"
+                android:paddingLeft="@dimen/activity_margin_half"
+                android:paddingTop="@dimen/activity_margin_half">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nom"
+                    android:textSize="6pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Nom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nom" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_half"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:paddingLeft="@dimen/activity_margin_half">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_margin_half"
+                android:paddingLeft="@dimen/activity_margin_half"
+                android:paddingTop="@dimen/activity_margin_half">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prénom"
+                    android:textSize="6pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Prenom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="prenom" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_half"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:paddingLeft="@dimen/activity_margin_half">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_margin_half"
+                android:paddingLeft="@dimen/activity_margin_half"
+                android:paddingTop="@dimen/activity_margin_half">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Numéro de CNI"
+                    android:textSize="6pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/NumeroCNI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NumeroCNI" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_half"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:paddingLeft="@dimen/activity_margin_half">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_margin_half"
+                android:paddingLeft="@dimen/activity_margin_half"
+                android:paddingTop="@dimen/activity_margin_half">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date de Délivrance CNI"
+                    android:textSize="6pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/DateDelivranceCN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date de Délivrance CNI" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_half"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:paddingLeft="@dimen/activity_margin_half">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_margin_half"
+                android:paddingLeft="@dimen/activity_margin_half"
+                android:paddingTop="@dimen/activity_margin_half">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lieu de Délivrance CNI"
+                    android:textSize="6pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/LieuDelivranceCNI"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date de Délivrance CNI" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_half"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:paddingLeft="@dimen/activity_margin_half">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_margin_half"
+                android:paddingLeft="@dimen/activity_margin_half"
+                android:paddingTop="@dimen/activity_margin_half">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Genre"
+                    android:textSize="6pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Genre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Genre" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_half"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:paddingLeft="@dimen/activity_margin_half">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_margin_half"
+                android:paddingLeft="@dimen/activity_margin_half"
+                android:paddingTop="@dimen/activity_margin_half">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Titre"
+                    android:textSize="6pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Titre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Titre" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_half"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:paddingLeft="@dimen/activity_margin_half">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_margin_half"
+                android:paddingLeft="@dimen/activity_margin_half"
+                android:paddingTop="@dimen/activity_margin_half">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Emails"
+                    android:textSize="6pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Email1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Titre" />
+
+                <TextView
+                    android:id="@+id/Email2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Titre" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_margin_half"
+            android:layout_marginTop="@dimen/activity_margin_half"
+            android:paddingLeft="@dimen/activity_margin_half">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_margin_half"
+                android:paddingLeft="@dimen/activity_margin_half"
+                android:paddingTop="@dimen/activity_margin_half">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Téléphones"
+                    android:textSize="6pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Tel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/Tel2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/Tel3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/Tel4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Titre" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
